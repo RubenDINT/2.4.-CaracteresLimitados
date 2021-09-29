@@ -27,7 +27,7 @@ namespace CaracteresLimitados
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            numeroCaracteresTextBox.Text = mainTextBox.Text.Length.ToString();
+            numeroCaracteresTextBlock.Text = mainTextBox.Text.Length.ToString() + "/140";
         }
     }
 }

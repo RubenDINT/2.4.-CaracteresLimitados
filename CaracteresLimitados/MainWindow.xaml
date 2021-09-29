@@ -30,13 +30,15 @@
                  MaxLength="140"
                  TextChanged="TextBox_TextChanged"
                  AcceptsReturn="True" />
-        <TextBox x:Name="numeroCaracteresTextBox"
-                 HorizontalAlignment="Left"
-                 Height="23"
-                 Margin="337,315,0,0"
-                 TextWrapping="Wrap"
-                 Text=""
-                 VerticalAlignment="Top"
-                 Width="120" />
+        <TextBlock x:Name="numeroCaracteresTextBlock"
+                   HorizontalAlignment="Right"
+                   Height="23"
+                   Margin="0,316,81,0"
+                   TextWrapping="Wrap"
+                   Text=""
+                   VerticalAlignment="Top"
+                   Width="70"
+                   Background="{x:Null}"
+                   Foreground="Black" />
     </Grid>
 </Window>
